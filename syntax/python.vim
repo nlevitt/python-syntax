@@ -257,7 +257,7 @@ syn match pythonBytesEscape       "\\x\x\{2}" display contained
 syn match pythonBytesEscapeError  "\\x\x\=\X" display contained
 syn match pythonBytesEscape       "\\$"
 
-syn match pythonUniEscape         "\\u\x\{4}" display contained
+syn match pythonUniEscape         "\\u\x\{4,6}" display contained
 syn match pythonUniEscapeError    "\\u\x\{,3}\X" display contained
 syn match pythonUniEscape         "\\U\x\{8}" display contained
 syn match pythonUniEscapeError    "\\U\x\{,7}\X" display contained
